@@ -12,13 +12,16 @@ body {
 	background-color: hsl(30, 38%, 92%);
 	font-size: 14px;
 	font-family: var(--font-monteserrat);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 .main__container {
 	height: 455px;
 	width: 600px;
 	display: flex;
-	margin: 200px auto;
 	background-color: var(--color-white);
 	border-radius: 10px;
 }
@@ -95,7 +98,7 @@ body {
 }
 
 @media screen and (max-width: 720px) {
-	.container {
+	.main__container {
 		flex-direction: column;
 		height: 100%;
 		width: 80vw;
